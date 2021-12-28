@@ -7,6 +7,9 @@ ports:
   # coverage report port
   - port: 8080
     onOpen: open-preview
+  # ports opened by jupyter notebook
+  - port: 9000-10000
+    onOpen: ignore
 
 tasks:
   - init: |
