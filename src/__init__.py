@@ -2,6 +2,7 @@
 """
 import os
 
+import numpy as np
 from flask_login import current_user
 from hemlock import User, Page, utils
 from hemlock.functional import compile, validate, test_response
