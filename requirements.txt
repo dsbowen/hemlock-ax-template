@@ -5,7 +5,7 @@ pylint
 seaborn
 tox
 
-git+https://gitlab.com/dsbowen/hemlock@master#egg=hemlock
+git+https://gitlab.com/dsbowen/hemlock@master#egg=hemlock-survey
 git+https://gitlab.com/dsbowen/hemlock-ax@master#egg=hemlock-ax
 # need to downgrade eventlet, see this issue:
 # https://github.com/eventlet/eventlet/issues/702
